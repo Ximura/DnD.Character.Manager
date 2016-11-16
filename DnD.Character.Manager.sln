@@ -16,9 +16,9 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DnD.Character.Manager.Servi
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DnD.Character.Manager.Services.Contracts", "src\DnD.Character.Manager.Services.Contracts\DnD.Character.Manager.Services.Contracts.xproj", "{56D86371-7781-4BD6-8F30-BB71514D41AA}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DnD.Character.Manager.Services.Test", "src\DnD.Character.Manager.Services.Test\DnD.Character.Manager.Services.Test.xproj", "{C4B46ED1-3B48-428F-B849-934B9DCB52E5}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{89B609DE-8BEB-400F-B3ED-368A220A659F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DnD.Character.Manager.Services.Test", "test\DnD.Character.Manager.Services.Test\DnD.Character.Manager.Services.Test.xproj", "{C4B46ED1-3B48-428F-B849-934B9DCB52E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
