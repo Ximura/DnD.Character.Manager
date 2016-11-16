@@ -1,19 +1,24 @@
 {
 	"version": "1.0.0-*",
-
-	"dependencies": {
-		"NETStandard.Library": "1.6.0",
-		"DnD.Character.Manager.Services": "1.0.0-*",
-		"DnD.Character.Manager.Services.Contracts": "1.0.0-*",
-		"NUnit": "3.5.0",
-		"dotnet-test-nunit": "3.4.0-beta-3"
-	},
-
 	"testRunner": "nunit",
 
+	"dependencies": {
+		"Microsoft.NETCore.App": {
+			"type": "platform",
+			"version": "1.0.0"
+		},
+		"NUnit": "3.5.0",
+			"dotnet-test-nunit": "3.4.0-beta-3",
+			"DnD.Character.Manager.Services": "1.0.0-*",
+			"DnD.Character.Manager.Services.Contracts": "1.0.0-*"
+	},
+
 	"frameworks": {
-		"netstandard1.6": {
-			"imports": "dnxcore50"
+		"netcoreapp1.0": {
+			"imports": [
+				"dotnet54",
+				"portable-net45+win8"
+			]
 		}
 	},
 
